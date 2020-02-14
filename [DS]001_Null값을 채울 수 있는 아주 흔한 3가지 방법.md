@@ -194,7 +194,7 @@ def mode(x):
     return [x_i for x_i, count in counts.items() if count == max_count]
 ```
 
-
+[목차로 돌아가기](https://github.com/artech-yj/Data_Analysis-with-Python)
 
 
 
