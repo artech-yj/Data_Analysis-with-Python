@@ -36,7 +36,7 @@ df = pd.DataFrame(data, index = rows)
 
 위의 코드를 실행하면 아래와 같이 만들어진다.
 
-<img width="515" alt="DS 001" src="https://user-images.githubusercontent.com/60219074/74526239-4ae4f980-4f66-11ea-8ace-fe3bcad742f8.png" style = "display : block; margin : 0 auto;">
+<p align="center"><img width="515" alt="DS 001" src="https://user-images.githubusercontent.com/60219074/74526239-4ae4f980-4f66-11ea-8ace-fe3bcad742f8.png" style = "display : block; margin : 0 auto;"></p>
 
 중간중간 **NaN**이라는 글자가 보일 것이다. 저것이 **결측치**이다.
 
