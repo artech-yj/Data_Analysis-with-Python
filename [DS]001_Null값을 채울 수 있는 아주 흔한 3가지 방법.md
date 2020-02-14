@@ -36,7 +36,7 @@ df = pd.DataFrame(data, index = rows)
 
 위의 코드를 실행하면 아래와 같이 만들어진다.
 
-<img src="/Users/youngjunyoon/Desktop/Github/Data_Analysis with Python/img/[DS]001.png" style="zoom:50%;" />
+<img width="515" alt="DS 001" src="https://user-images.githubusercontent.com/60219074/74526239-4ae4f980-4f66-11ea-8ace-fe3bcad742f8.png" style = "margin : 0 auto;">
 
 중간중간 **NaN**이라는 글자가 보일 것이다. 저것이 **결측치**이다.
 
@@ -80,7 +80,7 @@ def mean(x):
 
 
 
-#### 코드로 구현해보기2_산술평균
+### 코드로 구현해보기2_산술평균
 
 ```python
 #Numpy의 .mean()메소드를 활용
@@ -97,7 +97,7 @@ numpy의 mean 메소드를 사용하면 더욱 간편
 
 
 
-#### 코드로 구현해보기3_산술평균
+### 코드로 구현해보기3_산술평균
 
 ```python
 #데이터프레임의 Series의 평균값 구하기
@@ -138,7 +138,7 @@ df.loc['영준'].mean()
 
 
 
-#### 코드로 구현해보기1_중앙값
+### 코드로 구현해보기1_중앙값
 
 ```python
 #배열 형태의 데이터 x의 중앙값을 찾는 함수 만들기
@@ -158,7 +158,7 @@ def median(x):
 
 
 
-#### 코드로 구현해보기2_중앙값
+### 코드로 구현해보기2_중앙값
 
 ```python
 #Numpy의 median()메소드 활용
@@ -170,9 +170,9 @@ np.median(x)
 ## 3. 최빈값(Mode)
 
 > 데이터 집합에서 가장 많이 등장한 데이터입니다. 최빈값은 데이터 집합에 같은 값이 많이 반복될 때 유용하다. 
->
 > 최빈값이 없거나, 하나거나, 여러 개의 최빈값이 있을 수 있다.
 
+### 코드로 구현해보기1_최빈값
 ```python
 #배열 형태의 데이터 x의 최빈값을 찾는 함수 만들기
 from collections import Counter
